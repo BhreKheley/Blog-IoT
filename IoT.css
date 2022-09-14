@@ -1,0 +1,103 @@
+* {
+  width: 100;
+  height: 100;
+}
+
+body {
+  background-color: white;
+}
+
+.landingpage {
+  padding-top: 49.5%;
+  width: 100%;
+  height: 91.5vh;
+  background: url(https://www.dicoding.com/blog/wp-content/uploads/2021/09/Blog_8_September_-_Memahami_Apa_Itu_Internet_of_Things.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.section1 {
+  display: flex;
+  position: relative;
+  width: auto;
+  height: auto;
+  background-color: white;
+  align-items: center;
+}
+
+.judul1 {
+  font-size: 30px;
+}
+
+.subjudul {
+  font-size: 17px;
+}
+
+.gambarpenjelasan img {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  margin: 10px 0px 10px 0px;
+  border-radius: 20px;
+}
+
+.penjelasan1 {
+  margin: auto;
+  padding-top: 20px;
+  width: 50%;
+  align-items: center;
+  text-align: end;
+}
+
+.section2 {
+  background-color: burlywood;
+  width: 100%;
+  text-align: center;
+}
+
+.penjelasan2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.penjelasan2 p {
+  max-width: 50%;
+}
+
+.section3 {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  background-color: white;
+  align-items: center;
+}
+
+.juduljenis {
+  margin: auto;
+  width: 70%;
+  text-align: center;
+}
+
+.jenis {
+  padding: 0px 70px 0px 70px;
+}
+
+.jenis p {
+  font-size: 19px;
+}
+.kesimpulan {
+  margin-top: 70px;
+  padding: 0px 150px 0px 30px;
+}
+
+.section {
+  padding-top: 0rem;
+}
+
+html {
+  scroll-padding-top: 75px;
+}
